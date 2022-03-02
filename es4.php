@@ -1,6 +1,6 @@
 <?php
 
-$anno = 2022;
+$anno = date('Y');
 
 $i = 0;
 
