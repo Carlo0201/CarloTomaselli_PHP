@@ -41,11 +41,9 @@ foreach ($persone as $persona) {
     $compleannoAnnoProssimo = strtotime('+1 year', $compleannoAnnoCorrente);
 
     if ($compleannoAnnoCorrente < time()) {
-        // la persona ha già compiuto gli anni quest'anno
         $prossimoCompleanno = $compleannoAnnoProssimo;
         $eta = $annoCorrente - $annoNascita + 1;
     } else {
-        // la persona non ha ancora compiuto gli anni quest'anno
         $prossimoCompleanno = $compleannoAnnoCorrente;
         $eta = $annoCorrente - $annoNascita;
     }
