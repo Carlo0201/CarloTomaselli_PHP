@@ -8,7 +8,12 @@ class Studente{
     public $materie;
     public $voti;
 
-    
-    
+    function __construct($nomeParam, $cognomeParam){
+
+        $this->nome=$nomeParam;
+        $this->cognome=$cognomeParam;
+
+    }
+    x
 }
     
